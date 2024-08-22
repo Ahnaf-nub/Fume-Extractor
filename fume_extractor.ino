@@ -1,4 +1,4 @@
-#include <ESP32Servo.h>
+/*#include <ESP32Servo.h>
 #include <MQ135.h>
 
 #define relay 8
@@ -28,4 +28,4 @@ void sweep {
     myservo.write(pos);
     delay(10);
   }
-}
+}*/
