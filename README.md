@@ -8,3 +8,12 @@ This is a soldering fume extractor device designed to protect you from harmful f
 5. MQ-135 Sensor
 6. Relay Module
 7. DC 12v Fan
+### Running the code:
+Clone the Repository:
+```
+git https://github.com/Ahnaf-nub/Fume-Extractor.git
+cd Fume-Extractor
+```
+*Upload `fume_extractor.ino` to your esp32 board!*
+## N.B:
+You might need to calibrate the MQ135 sensor, so uplaod `calibration.ino` code to measure the readings in clear air and put that calirated value into the `MQ135.cpp`
